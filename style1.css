@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  border: border-box;
+  text-decoration: none;
+  color: #0061ff;
+  font-weight: 700;
+}
+
+.container {
+  background-image: linear-gradient(#0061ff, #60efff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5rem;
+}
+h1 {
+  color: #ffafcc;
+  font-weight: 700;
+  margin: 10px;
+}
+.tile1,
+.tile2,
+.tile3,
+.tile4,
+.tile5,
+.tile6,
+.tile7,
+.tile8,
+.tile9 {
+  display: table-cell;
+  width: 120px;
+  height: 120px;
+  border: 1px solid white;
+  background: url("picture.jpg");
+
+  cursor: pointer;
+}
+
+.tile1 {
+  background-position: left top;
+}
+.tile2 {
+  background-position: center top;
+}
+.tile3 {
+  background-position: right top;
+}
+.tile4 {
+  background-position: left center;
+}
+.tile5 {
+  background-position: center center;
+}
+.tile6 {
+  background-position: right center;
+}
+.tile7 {
+  background-position: left bottom;
+}
+.tile8 {
+  background-position: center bottom;
+}
+.tile9 {
+  background: white;
+  cursor: default;
+}
+button {
+  background-color: #ffafcc;
+  color: #0061ff;
+  font-weight: 700;
+  margin: 10px;
+}
+button:hover {
+  border: 2px solid #0061ff;
+  font-size: 1.52rem;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-left: 10px;
+}
